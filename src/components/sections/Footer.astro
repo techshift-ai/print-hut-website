@@ -1,0 +1,162 @@
+---
+import { siteData } from '../../lib/siteData';
+---
+
+<footer class="bg-neutral-950 text-neutral-300" id="footer">
+  <div
+    class="mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8"
+    style="max-width: 1280px;"
+  >
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+      <!-- Brand column -->
+      <div>
+        <a href="/" aria-label="Print Hut — Home">
+          <img
+            src="/assets/logo-primary-dark-bg.png"
+            alt="Print Hut logo"
+            class="h-8 w-auto mb-4"
+            width="128"
+            height="32"
+          />
+        </a>
+        <p class="text-body-md text-neutral-400 max-w-xs">
+          {siteData.tagline}
+        </p>
+        <!-- Social icons -->
+        <div class="flex items-center gap-4 mt-6">
+          <a
+            href={siteData.social.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-neutral-400 hover:text-yellow-500 transition-colors"
+            style="transition-duration: var(--duration-fast);"
+            aria-label="Follow Print Hut on Instagram"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+              ></path>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            </svg>
+          </a>
+          <a
+            href={siteData.social.facebook}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-neutral-400 hover:text-yellow-500 transition-colors"
+            style="transition-duration: var(--duration-fast);"
+            aria-label="Follow Print Hut on Facebook"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick links -->
+      <div>
+        <h3 class="text-neutral-50 font-semibold text-heading-md mb-4">
+          Quick Links
+        </h3>
+        <ul class="space-y-3">
+          <li>
+            <a
+              href="#products"
+              class="text-neutral-400 hover:text-yellow-500 transition-colors text-body-md"
+              style="transition-duration: var(--duration-fast);"
+            >
+              Products
+            </a>
+          </li>
+          <li>
+            <a
+              href="#gallery"
+              class="text-neutral-400 hover:text-yellow-500 transition-colors text-body-md"
+              style="transition-duration: var(--duration-fast);"
+            >
+              Gallery
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="text-neutral-400 hover:text-yellow-500 transition-colors text-body-md"
+              style="transition-duration: var(--duration-fast);"
+            >
+              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="text-neutral-400 hover:text-yellow-500 transition-colors text-body-md"
+              style="transition-duration: var(--duration-fast);"
+            >
+              Get a Quote
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contact info -->
+      <div>
+        <h3 class="text-neutral-50 font-semibold text-heading-md mb-4">
+          Contact
+        </h3>
+        <ul class="space-y-3 text-body-md">
+          <li>
+            <a
+              href={`tel:${siteData.phoneTel}`}
+              class="text-neutral-400 hover:text-yellow-500 transition-colors"
+              style="transition-duration: var(--duration-fast);"
+            >
+              {siteData.phone}
+            </a>
+          </li>
+          <li>
+            <a
+              href={`mailto:${siteData.email}`}
+              class="text-neutral-400 hover:text-yellow-500 transition-colors"
+              style="transition-duration: var(--duration-fast);"
+            >
+              {siteData.email}
+            </a>
+          </li>
+          <li class="text-neutral-400">
+            {siteData.address.full}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="border-t border-neutral-800 pt-8">
+      <p class="text-body-sm text-neutral-500 text-center">
+        &copy; {new Date().getFullYear()} Print Hut. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,153 @@
+---
+const navLinks = [
+  { label: 'Products', href: '#products' },
+  { label: 'Why Print Hut', href: '#why' },
+  { label: 'Gallery', href: '#gallery' },
+  { label: 'Contact', href: '#contact' },
+];
+---
+
+<header
+  class="fixed top-0 left-0 right-0 z-30 bg-neutral-900/95 backdrop-blur-sm"
+  id="site-header"
+>
+  <nav
+    class="mx-auto flex items-center justify-between px-4 py-3 sm:px-6 lg:px-8"
+    style="max-width: 1280px;"
+    aria-label="Primary navigation"
+  >
+    <!-- Logo -->
+    <a href="/" class="flex-shrink-0" aria-label="Print Hut — Home">
+      <img
+        src="/assets/logo-primary-dark-bg.png"
+        alt="Print Hut logo"
+        class="h-8 w-auto sm:h-9"
+        width="144"
+        height="36"
+      />
+    </a>
+
+    <!-- Desktop nav -->
+    <div class="hidden md:flex items-center gap-8">
+      {
+        navLinks.map((link) => (
+          <a
+            href={link.href}
+            class="text-neutral-300 hover:text-neutral-50 text-label-lg font-medium transition-colors"
+            style="transition-duration: var(--duration-fast); transition-timing-function: var(--ease-snap);"
+          >
+            {link.label}
+          </a>
+        ))
+      }
+      <a
+        href="#contact"
+        class="inline-flex items-center justify-center h-9 px-4 bg-yellow-500 text-neutral-950 font-medium text-label-md rounded-md hover:bg-yellow-400 active:bg-yellow-600 transition-colors"
+        style="transition-duration: var(--duration-fast); transition-timing-function: var(--ease-snap);"
+      >
+        Get a Quote
+      </a>
+    </div>
+
+    <!-- Mobile menu button -->
+    <button
+      type="button"
+      class="md:hidden flex items-center justify-center w-11 h-11 text-neutral-300 hover:text-neutral-50 rounded-md"
+      aria-label="Open menu"
+      aria-expanded="false"
+      id="mobile-menu-btn"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <line x1="4" x2="20" y1="12" y2="12"></line>
+        <line x1="4" x2="20" y1="6" y2="6"></line>
+        <line x1="4" x2="20" y1="18" y2="18"></line>
+      </svg>
+    </button>
+  </nav>
+
+  <!-- Mobile menu overlay -->
+  <div
+    class="fixed inset-0 z-40 bg-neutral-900/98 hidden flex-col items-center justify-center gap-8"
+    id="mobile-menu"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Mobile navigation"
+  >
+    <button
+      type="button"
+      class="absolute top-4 right-4 w-11 h-11 flex items-center justify-center text-neutral-300 hover:text-neutral-50"
+      aria-label="Close menu"
+      id="mobile-menu-close"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M18 6 6 18"></path>
+        <path d="m6 6 12 12"></path>
+      </svg>
+    </button>
+    {
+      navLinks.map((link) => (
+        <a
+          href={link.href}
+          class="text-neutral-50 text-display-sm font-semibold hover:text-yellow-500 transition-colors mobile-nav-link"
+        >
+          {link.label}
+        </a>
+      ))
+    }
+    <a
+      href="#contact"
+      class="mt-4 inline-flex items-center justify-center h-12 px-8 bg-yellow-500 text-neutral-950 font-semibold text-label-lg rounded-md hover:bg-yellow-400 mobile-nav-link"
+    >
+      Get a Quote
+    </a>
+  </div>
+</header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  const closeBtn = document.getElementById('mobile-menu-close');
+  const links = document.querySelectorAll('.mobile-nav-link');
+
+  function openMenu() {
+    menu?.classList.remove('hidden');
+    menu?.classList.add('flex');
+    btn?.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    menu?.classList.add('hidden');
+    menu?.classList.remove('flex');
+    btn?.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  btn?.addEventListener('click', openMenu);
+  closeBtn?.addEventListener('click', closeMenu);
+  links.forEach((link) => link.addEventListener('click', closeMenu));
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeMenu();
+  });
+</script>

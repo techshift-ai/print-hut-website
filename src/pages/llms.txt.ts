@@ -6,13 +6,13 @@ export const GET: APIRoute = () => {
 
 > ${siteData.description}
 
-## Products & Pricing
+## Products
 
-- [Custom Clothing (T-Shirts & Hoodies)](#products) — Custom printed t-shirts and hoodies. Quote-based pricing.
-- [Business Cards](#products) — Standard 3.5" x 2". Starting at $60 for 500 single-sided.
-- [Flyers](#products) — Multiple sizes. Starting at $100 for 500 (5.5" x 8.5").
-- [Custom Table Cloths](#products) — For 6-foot folding tables. $80 each or 2 for $120.
-- [Stickers & Decals](#products) — Custom sticker and decal printing. Quote-based.
+- [Custom Clothing (T-Shirts & Hoodies)](#products) — Custom printed t-shirts and hoodies for teams, events, uniforms, and merch.
+- [Business Cards](#products) — Standard 3.5" x 2" on quality card stock. Starting at $60.
+- [Flyers](#products) — Multiple sizes available. Starting at $100.
+- [Custom Table Cloths](#products) — For standard 6-foot folding tables. Starting at $80.
+- [Stickers & Decals](#products) — Custom sticker and decal printing for branding and giveaways.
 
 ## About
 
@@ -28,13 +28,13 @@ Print Hut is a custom printing shop at 260 Regina Road, Unit 16B, Woodbridge, On
 
 ## FAQ
 
-- How much do business cards cost at Print Hut?
-- How much do flyers cost at Print Hut?
+- What does Print Hut print?
 - How long does printing take?
 - Can I bring my own design?
+- How do I place an order?
 - Where is Print Hut located?
-- Do you print custom t-shirts and hoodies?
-- How much do custom table cloths cost?
+- Do you handle bulk or large orders?
+- What file formats do you accept?
 `;
 
   return new Response(content, {

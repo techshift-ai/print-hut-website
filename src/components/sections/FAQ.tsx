@@ -6,14 +6,9 @@ import AnimatedSection from '../ui/AnimatedSection';
 
 const faqs = [
   {
-    question: 'How much do business cards cost at Print Hut?',
+    question: 'What does Print Hut print?',
     answer:
-      'Print Hut prints standard 3.5" x 2" business cards on quality card stock. Single-sided: 500 for $60, 1,000 for $100. Double-sided: 500 for $80, 1,000 for $120. Bring your design file or we will help set one up.',
-  },
-  {
-    question: 'How much do flyers cost at Print Hut?',
-    answer:
-      'Flyer pricing for 5.5" x 8.5" starts at 500 for $100, 1,000 for $200, 2,000 for $250, 3,000 for $300, and 5,000 for $350. Larger sizes (8.5" x 11", 11" x 17", 12" x 18") are available — contact us for pricing. Cardstock postcards and regular flyer paper options.',
+      'Print Hut prints custom t-shirts, hoodies, business cards, flyers, table cloths, stickers, and decals. Whether you need 50 t-shirts for a team event or 5,000 flyers for a promotion, we handle it.',
   },
   {
     question: 'How long does printing take?',
@@ -26,19 +21,24 @@ const faqs = [
       'Yes. Print Hut accepts design files for all products — t-shirts, business cards, flyers, table cloths, stickers, and decals. If you do not have a design ready, we can help set one up.',
   },
   {
+    question: 'How do I place an order?',
+    answer:
+      'You can fill out the quote form on this page, call us at 647.780.3103, email sales@printhut.ca, or walk into our shop at 260 Regina Road in Woodbridge. We will get back to you with details and turnaround.',
+  },
+  {
     question: 'Where is Print Hut located?',
     answer:
       'Print Hut is at 260 Regina Road, Unit 16B, Woodbridge, Ontario, L4L 8P8. You can walk in to see samples, drop off files, or pick up your order.',
   },
   {
-    question: 'Do you print custom t-shirts and hoodies?',
+    question: 'Do you handle bulk or large orders?',
     answer:
-      'Yes. Print Hut prints custom t-shirts and hoodies for teams, events, uniforms, merch, and personal projects. Pricing is quote-based and depends on quantity, number of colors, and garment type. Contact us for a quote.',
+      'Yes. Print Hut handles orders of all sizes — from a single custom table cloth to thousands of flyers or hundreds of t-shirts. Contact us with your quantity and we will provide a quote.',
   },
   {
-    question: 'How much do custom table cloths cost?',
+    question: 'What file formats do you accept?',
     answer:
-      'Custom table cloths designed for standard 6-foot folding tables are $80 for one and $120 for two. Black and white base options available. Great for trade shows, events, and markets.',
+      'We accept most common design formats including PDF, AI, PSD, PNG, and JPG. If you are not sure about your file, bring it in or send it over — we will let you know if anything needs adjusting.',
   },
 ];
 

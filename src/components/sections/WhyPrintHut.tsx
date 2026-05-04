@@ -6,9 +6,9 @@ import {
 
 const differentiators = [
   {
-    title: 'Prices on the page.',
+    title: 'Quality you can see.',
     description:
-      'Most print shops make you fill out a quote form for everything. Print Hut publishes prices for standard products so you know what you are paying before you pick up the phone.',
+      'Every print is checked before it leaves the shop. T-shirts, business cards, flyers, table cloths, stickers — Print Hut gets the details right so your brand looks sharp.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -22,8 +22,8 @@ const differentiators = [
         strokeLinejoin="round"
         className="text-yellow-500"
       >
-        <line x1="12" x2="12" y1="2" y2="22" />
-        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+        <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
+        <path d="m9 12 2 2 4-4" />
       </svg>
     ),
   },
@@ -91,12 +91,11 @@ export default function WhyPrintHut() {
             className="text-display-xl font-extrabold text-neutral-50 mb-4"
             style={{ letterSpacing: '-0.025em', lineHeight: 1.1 }}
           >
-            Real reasons to pick this shop.
+            Why people choose Print Hut.
           </h2>
           <p className="text-body-lg text-neutral-300">
-            Not marketing fluff. Three things that actually set Print Hut apart
-            from the franchise down the road or the online service you tried
-            last time.
+            A local Woodbridge print shop that does the work right, does it
+            fast, and treats every order like it matters.
           </p>
         </AnimatedSection>
 

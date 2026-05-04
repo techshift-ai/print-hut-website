@@ -13,18 +13,10 @@ const faqSchema = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'How much do business cards cost at Print Hut?',
+      name: 'What does Print Hut print?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Print Hut prints standard 3.5" x 2" business cards on quality card stock. Single-sided: 500 for $60, 1,000 for $100. Double-sided: 500 for $80, 1,000 for $120. Bring your design file or we will help set one up.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'How much do flyers cost at Print Hut?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Flyer pricing for 5.5" x 8.5" starts at 500 for $100, 1,000 for $200, 2,000 for $250, 3,000 for $300, and 5,000 for $350. Larger sizes available — contact us for pricing.',
+        text: 'Print Hut prints custom t-shirts, hoodies, business cards, flyers, table cloths, stickers, and decals. Whether you need 50 t-shirts for a team event or 5,000 flyers for a promotion, we handle it.',
       },
     },
     {
@@ -45,6 +37,14 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
+      name: 'How do I place an order?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Fill out the quote form on the website, call 647.780.3103, email sales@printhut.ca, or walk into the shop at 260 Regina Road in Woodbridge.',
+      },
+    },
+    {
+      '@type': 'Question',
       name: 'Where is Print Hut located?',
       acceptedAnswer: {
         '@type': 'Answer',
@@ -53,18 +53,18 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Do you print custom t-shirts and hoodies?',
+      name: 'Do you handle bulk or large orders?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Custom t-shirts and hoodies for teams, events, uniforms, merch, and personal projects. Contact us for a quote.',
+        text: 'Yes. Print Hut handles orders of all sizes — from a single custom table cloth to thousands of flyers or hundreds of t-shirts. Contact us with your quantity for a quote.',
       },
     },
     {
       '@type': 'Question',
-      name: 'How much do custom table cloths cost?',
+      name: 'What file formats do you accept?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Custom table cloths for standard 6-foot folding tables are $80 for one and $120 for two. Black and white base options available.',
+        text: 'We accept most common design formats including PDF, AI, PSD, PNG, and JPG. Bring your file in or send it over and we will let you know if anything needs adjusting.',
       },
     },
   ],
@@ -73,7 +73,7 @@ const faqSchema = {
 
 <Layout
   title="Print Hut — Custom Printing in Woodbridge, ON | T-Shirts, Business Cards, Flyers"
-  description="Print Hut is a custom printing shop in Woodbridge, Ontario. T-shirts, business cards starting at $60, flyers starting at $100, table cloths, stickers, and decals. Real prices, fast turnaround."
+  description="Print Hut is a custom printing shop in Woodbridge, Ontario. T-shirts, business cards, flyers, table cloths, stickers, and decals. Quality prints, fast turnaround, and personal service from a local shop."
 >
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />

@@ -5,76 +5,6 @@ import { staggerContainer, staggerItem, buttonHover, buttonTap } from '../../lib
 import { useReducedMotion } from '../../lib/useReducedMotion';
 import AnimatedSection from '../ui/AnimatedSection';
 
-function PricingTable({
-  table,
-  type,
-}: {
-  table: readonly { qty: string; single?: string; double?: string; price?: string }[];
-  type: 'business-cards' | 'flyers' | 'table-cloths';
-}) {
-  if (type === 'business-cards') {
-    return (
-      <div className="mt-4 overflow-hidden rounded-md border border-neutral-200">
-        <table className="w-full text-body-sm">
-          <thead>
-            <tr className="bg-yellow-50">
-              <th className="text-left px-3 py-2 font-semibold text-neutral-900">
-                Qty
-              </th>
-              <th className="text-left px-3 py-2 font-semibold text-neutral-900">
-                Single-Sided
-              </th>
-              <th className="text-left px-3 py-2 font-semibold text-neutral-900">
-                Double-Sided
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {table.map((row) => (
-              <tr key={row.qty} className="border-t border-neutral-100">
-                <td className="px-3 py-2 text-neutral-600">{row.qty}</td>
-                <td className="px-3 py-2 font-bold text-neutral-900">
-                  {row.single}
-                </td>
-                <td className="px-3 py-2 font-bold text-neutral-900">
-                  {row.double}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    );
-  }
-
-  return (
-    <div className="mt-4 overflow-hidden rounded-md border border-neutral-200">
-      <table className="w-full text-body-sm">
-        <thead>
-          <tr className="bg-yellow-50">
-            <th className="text-left px-3 py-2 font-semibold text-neutral-900">
-              Qty
-            </th>
-            <th className="text-left px-3 py-2 font-semibold text-neutral-900">
-              Price
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {table.map((row) => (
-            <tr key={row.qty} className="border-t border-neutral-100">
-              <td className="px-3 py-2 text-neutral-600">{row.qty}</td>
-              <td className="px-3 py-2 font-bold text-neutral-900">
-                {row.price}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );
-}
-
 function ProductCard({
   product,
   index,
@@ -123,14 +53,6 @@ function ProductCard({
           {product.pricing}
         </p>
 
-        {/* Pricing table if available */}
-        {'pricingTable' in product && product.pricingTable && (
-          <PricingTable
-            table={product.pricingTable}
-            type={product.id as 'business-cards' | 'flyers' | 'table-cloths'}
-          />
-        )}
-
         {/* CTA */}
         <div className="mt-6">
           <motion.a
@@ -177,7 +99,7 @@ export default function Products() {
             className="text-label-sm font-semibold uppercase text-yellow-800 mb-3"
             style={{ letterSpacing: '0.04em' }}
           >
-            Products & Pricing
+            What We Print
           </p>
           <h2
             className="text-display-xl font-extrabold text-neutral-900 mb-4"
@@ -186,9 +108,9 @@ export default function Products() {
             Everything you need, printed.
           </h2>
           <p className="text-body-lg text-neutral-600">
-            Print Hut prints t-shirts, business cards, flyers, table cloths,
-            stickers, and decals. Standard products have prices right here — no
-            quote form, no waiting.
+            From custom apparel to business cards, flyers to branded table
+            cloths — Print Hut handles it all at our Woodbridge shop. Tell us
+            what you need and we will make it happen.
           </p>
         </AnimatedSection>
 

@@ -5,7 +5,7 @@ export const siteData = {
   url: 'https://print-hut-website.pages.dev',
   tagline: 'Custom printing in Woodbridge, Ontario.',
   description:
-    'Print Hut is a custom printing shop in Woodbridge, Ontario. T-shirts, business cards, flyers, table cloths, stickers, and decals — printed fast, priced clearly, and ready when you need them.',
+    'Print Hut is a custom printing shop in Woodbridge, Ontario. T-shirts, business cards, flyers, table cloths, stickers, and decals — quality prints, fast turnaround, and personal service from a local shop.',
   phone: '647.780.3103',
   phoneTel: '+16477803103',
   email: 'sales@printhut.ca',
@@ -36,7 +36,7 @@ export const products = [
     subtitle: 'T-Shirts & Hoodies',
     description:
       'Custom printed t-shirts and hoodies for teams, events, uniforms, merch, and personal projects. Bring your own design or work with us on one.',
-    pricing: 'Quote-based — varies by quantity, colors, and garment type.',
+    pricing: 'Get a Quote',
     cta: 'Get a Quote',
     ctaHref: '#contact',
     icon: 'Shirt',
@@ -48,11 +48,7 @@ export const products = [
     subtitle: 'Standard 3.5" x 2"',
     description:
       'Printed on quality card stock. Single-sided or double-sided. Bring your design file or we will help set one up.',
-    pricing: 'Starting at $60 for 500 cards.',
-    pricingTable: [
-      { qty: '500', single: '$60', double: '$80' },
-      { qty: '1,000', single: '$100', double: '$120' },
-    ],
+    pricing: 'Starting at $60',
     cta: 'Order Business Cards',
     ctaHref: '#contact',
     icon: 'CreditCard',
@@ -64,14 +60,7 @@ export const products = [
     subtitle: 'Multiple Sizes Available',
     description:
       'Available in 5.5" x 8.5", 8.5" x 11", 11" x 17", and 12" x 18". Cardstock postcards or regular flyer paper. Great for events, promotions, menus, and handouts.',
-    pricing: 'Starting at $100 for 500 flyers.',
-    pricingTable: [
-      { qty: '500', price: '$100' },
-      { qty: '1,000', price: '$200' },
-      { qty: '2,000', price: '$250' },
-      { qty: '3,000', price: '$300' },
-      { qty: '5,000', price: '$350' },
-    ],
+    pricing: 'Starting at $100',
     cta: 'Order Flyers',
     ctaHref: '#contact',
     icon: 'FileText',
@@ -83,11 +72,7 @@ export const products = [
     subtitle: 'For 6-Foot Folding Tables',
     description:
       'Branded table cloths for trade shows, events, and markets. Black and white base options available. Designed for standard 6-foot folding tables.',
-    pricing: 'Single table cloth: $80. Two table cloths: $120.',
-    pricingTable: [
-      { qty: '1', price: '$80' },
-      { qty: '2', price: '$120' },
-    ],
+    pricing: 'Starting at $80',
     cta: 'Order Table Cloths',
     ctaHref: '#contact',
     icon: 'LayoutGrid',
@@ -99,7 +84,7 @@ export const products = [
     subtitle: 'Custom Printed',
     description:
       'Custom sticker and decal printing for branding, packaging, laptops, vehicles, and giveaways. Any size, any shape.',
-    pricing: 'Quote-based — varies by size, quantity, and material.',
+    pricing: 'Get a Quote',
     cta: 'Get a Quote',
     ctaHref: '#contact',
     icon: 'Sticker',

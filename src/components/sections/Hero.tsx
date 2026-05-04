@@ -52,7 +52,7 @@ export default function Hero() {
               className="text-display-2xl font-extrabold text-neutral-50 mb-6"
               style={{ letterSpacing: '-0.03em', lineHeight: 1.1 }}
             >
-              The Woodbridge print shop that shows you the price.
+              Your design, printed and ready.
             </h1>
           </Wrapper>
 
@@ -62,9 +62,9 @@ export default function Hero() {
               className="text-body-lg text-neutral-300 max-w-2xl mb-10"
               style={{ lineHeight: 1.6 }}
             >
-              Custom t-shirts from your design. Business cards starting at $60.
-              Flyers starting at $100. Walk in or send us your files — we
-              handle the rest.
+              Custom t-shirts, business cards, flyers, table cloths, stickers,
+              and decals — printed at our Woodbridge shop with fast turnaround
+              and personal service. Walk in or send us your files.
             </p>
           </Wrapper>
 
@@ -156,14 +156,11 @@ export default function Hero() {
                   strokeLinejoin="round"
                   className="text-yellow-500"
                 >
-                  <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5" />
-                  <path d="M8.5 8.5v.01" />
-                  <path d="M16 15.5v.01" />
-                  <path d="M12 12v.01" />
-                  <path d="M11 17v.01" />
-                  <path d="M7 14v.01" />
+                  <path d="M21 7 6.82 21.18a2.83 2.83 0 0 1-3.99-.01a2.83 2.83 0 0 1 0-4L17 3" />
+                  <path d="m16 2 6 6" />
+                  <path d="M12 16H4" />
                 </svg>
-                <span>Prices on the Page</span>
+                <span>T-Shirts, Cards, Flyers & More</span>
               </div>
             </div>
           </Wrapper>

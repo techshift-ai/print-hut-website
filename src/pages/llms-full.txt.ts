@@ -2,7 +2,7 @@ import type { APIRoute } from 'astro';
 import { siteData, products } from '../lib/siteData';
 
 export const GET: APIRoute = () => {
-  const content = `# ${siteData.name} — Custom Printing in Woodbridge, Ontario
+  const content = `# ${siteData.name} — Custom Printing for the GTA and Southern Ontario
 
 ${siteData.description}
 
@@ -32,7 +32,13 @@ Every print is checked before it leaves the shop. T-shirts, business cards, flye
 Standard orders are ready in days, not weeks. Need it sooner? Talk to us — rush jobs are part of the job.
 
 ### A shop you can walk into
-260 Regina Road, Woodbridge. Come see samples, drop off files, or pick up your order. Print Hut is a real shop with real people — not a portal and a ticket number.
+Come see samples, drop off files, or pick up your order at 260 Regina Road, Unit 16B, Woodbridge, ON. Print Hut is a real shop with real people — not a portal and a ticket number.
+
+---
+
+## Service Area
+
+Print Hut serves the Greater Toronto Area (GTA), Simcoe County (including Innisfil, Barrie, and Bradford), and all surrounding areas in Southern Ontario. Walk-in service available at our Woodbridge location; delivery and shipping available for larger orders.
 
 ---
 
@@ -42,13 +48,13 @@ Q: What does Print Hut print?
 A: Print Hut prints custom t-shirts, hoodies, business cards, flyers, table cloths, stickers, and decals. Whether you need 50 t-shirts for a team event or 5,000 flyers for a promotion, we handle it.
 
 Q: How long does printing take?
-A: Standard orders are ready in a few business days. Rush jobs available — call 647.780.3103 or visit 260 Regina Road in Woodbridge.
+A: Standard orders are ready in a few business days. Rush jobs available — call 647.780.3103 or visit the shop to discuss your timeline.
 
 Q: Can I bring my own design?
 A: Yes. Print Hut accepts design files for all products. If you do not have a design ready, we can help set one up.
 
 Q: How do I place an order?
-A: Fill out the quote form on the website, call 647.780.3103, email sales@printhut.ca, or walk into the shop at 260 Regina Road in Woodbridge.
+A: Fill out the quote form on the website, call 647.780.3103, email sales@printhut.ca, or walk into the shop.
 
 Q: Where is Print Hut located?
 A: Print Hut is at 260 Regina Road, Unit 16B, Woodbridge, Ontario, L4L 8P8, Canada.

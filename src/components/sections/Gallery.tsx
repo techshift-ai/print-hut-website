@@ -7,13 +7,13 @@ import AnimatedSection from '../ui/AnimatedSection';
 const galleryImages = [
   { src: '/images/gallery-1.jpg', alt: 'Custom printed t-shirt by Print Hut' },
   { src: '/images/gallery-2.jpg', alt: 'Print Hut custom apparel showcase' },
-  { src: '/images/gallery-3.jpg', alt: 'Branded hoodie printed at Print Hut Woodbridge' },
+  { src: '/images/gallery-3.jpg', alt: 'Branded hoodie printed at Print Hut' },
   { src: '/images/gallery-4.jpg', alt: 'Custom event merchandise by Print Hut' },
   { src: '/images/gallery-5.jpg', alt: 'Print Hut custom printed clothing' },
   { src: '/images/gallery-6.jpg', alt: 'Team uniforms printed by Print Hut' },
   { src: '/images/gallery-7.jpg', alt: 'Custom printed gear from Print Hut' },
   { src: '/images/gallery-8.jpg', alt: 'Print Hut custom apparel for businesses' },
-  { src: '/images/business-cards-1.jpg', alt: 'Business cards printed by Print Hut Woodbridge' },
+  { src: '/images/business-cards-1.jpg', alt: 'Business cards printed by Print Hut' },
   { src: '/images/flyers-2.jpg', alt: 'Custom flyers and print materials by Print Hut' },
   { src: '/images/tablecloth-1.jpg', alt: 'Custom branded table cloth by Print Hut' },
   { src: '/images/gallery-12.jpg', alt: 'Print Hut custom printing project' },
@@ -44,9 +44,8 @@ export default function Gallery() {
             Printed and ready.
           </h2>
           <p className="text-body-lg text-neutral-600">
-            Custom t-shirts, business cards, flyers, table cloths, and more —
-            all printed at our Woodbridge shop. Here is a sample of recent
-            work.
+            Custom t-shirts, business cards, flyers, table cloths, and more.
+            Here is a sample of recent work.
           </p>
         </AnimatedSection>
 

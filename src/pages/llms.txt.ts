@@ -18,6 +18,10 @@ export const GET: APIRoute = () => {
 
 Print Hut is a custom printing shop at 260 Regina Road, Unit 16B, Woodbridge, Ontario, L4L 8P8, Canada.
 
+## Service Area
+
+Print Hut serves the Greater Toronto Area (GTA), Simcoe County (including Innisfil, Barrie, and Bradford), and all surrounding areas in Southern Ontario.
+
 ## Contact
 
 - Phone: ${siteData.phone}

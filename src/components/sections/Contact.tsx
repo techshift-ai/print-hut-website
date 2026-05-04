@@ -30,8 +30,8 @@ export default function Contact() {
                 Tell us what you need.
               </h2>
               <p className="text-body-lg text-neutral-300 mb-8" style={{ lineHeight: 1.6 }}>
-                Fill out the form, give us a call, or walk into our Woodbridge
-                shop. We usually respond within a few hours during business days.
+                Fill out the form, give us a call, or walk into the shop. We
+                usually respond within a few hours during business days.
               </p>
 
               {/* Contact details */}

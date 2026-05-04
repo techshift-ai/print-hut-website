@@ -13,7 +13,7 @@ const faqs = [
   {
     question: 'How long does printing take?',
     answer:
-      'Standard orders are ready in a few business days. Rush jobs are available — call Print Hut at 647.780.3103 or visit the shop at 260 Regina Road in Woodbridge to discuss your timeline.',
+      'Standard orders are ready in a few business days. Rush jobs are available — call Print Hut at 647.780.3103 or visit the shop to discuss your timeline.',
   },
   {
     question: 'Can I bring my own design?',
@@ -23,7 +23,7 @@ const faqs = [
   {
     question: 'How do I place an order?',
     answer:
-      'You can fill out the quote form on this page, call us at 647.780.3103, email sales@printhut.ca, or walk into our shop at 260 Regina Road in Woodbridge. We will get back to you with details and turnaround.',
+      'You can fill out the quote form on this page, call us at 647.780.3103, email sales@printhut.ca, or walk into our shop. We will get back to you with details and turnaround.',
   },
   {
     question: 'Where is Print Hut located?',

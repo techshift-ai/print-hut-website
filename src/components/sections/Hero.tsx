@@ -42,7 +42,7 @@ export default function Hero() {
               className="text-yellow-500 text-label-sm font-semibold uppercase tracking-wider mb-6"
               style={{ letterSpacing: '0.08em' }}
             >
-              Custom Printing in Woodbridge, Ontario
+              Custom Printing Done Right
             </p>
           </Wrapper>
 
@@ -63,8 +63,8 @@ export default function Hero() {
               style={{ lineHeight: 1.6 }}
             >
               Custom t-shirts, business cards, flyers, table cloths, stickers,
-              and decals — printed at our Woodbridge shop with fast turnaround
-              and personal service. Walk in or send us your files.
+              and decals — quality prints, fast turnaround, and personal
+              service. Walk in or send us your files.
             </p>
           </Wrapper>
 
@@ -117,7 +117,7 @@ export default function Hero() {
                   <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
                   <circle cx="12" cy="10" r="3" />
                 </svg>
-                <span>260 Regina Rd, Woodbridge</span>
+                <span>Walk-In Shop Open</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg

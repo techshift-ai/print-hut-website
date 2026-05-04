@@ -3,9 +3,9 @@
 export const siteData = {
   name: 'Print Hut',
   url: 'https://print-hut-website.pages.dev',
-  tagline: 'Custom printing in Woodbridge, Ontario.',
+  tagline: 'Custom printing. Quality prints, fast turnaround.',
   description:
-    'Print Hut is a custom printing shop in Woodbridge, Ontario. T-shirts, business cards, flyers, table cloths, stickers, and decals — quality prints, fast turnaround, and personal service from a local shop.',
+    'Print Hut is a custom printing shop serving the GTA, Simcoe County, and Southern Ontario. T-shirts, business cards, flyers, table cloths, stickers, and decals — quality prints, fast turnaround, and personal service.',
   phone: '647.780.3103',
   phoneTel: '+16477803103',
   email: 'sales@printhut.ca',

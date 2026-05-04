@@ -52,7 +52,7 @@ const differentiators = [
   {
     title: 'A shop you can walk into.',
     description:
-      '260 Regina Road, Woodbridge. Come see samples, drop off files, or pick up your order. Print Hut is a real shop with real people — not a portal and a ticket number.',
+      'Come see samples, drop off files, or pick up your order. Print Hut is a real shop with real people — not a portal and a ticket number.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -94,8 +94,8 @@ export default function WhyPrintHut() {
             Why people choose Print Hut.
           </h2>
           <p className="text-body-lg text-neutral-300">
-            A local Woodbridge print shop that does the work right, does it
-            fast, and treats every order like it matters.
+            A print shop that does the work right, does it fast, and treats
+            every order like it matters.
           </p>
         </AnimatedSection>
 

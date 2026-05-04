@@ -44,6 +44,15 @@ const { title, description } = Astro.props;
           longitude: siteData.geo.lng,
         },
         sameAs: [siteData.social.instagram, siteData.social.facebook],
+        areaServed: [
+          { '@type': 'City', name: 'Woodbridge', containedInPlace: { '@type': 'AdministrativeArea', name: 'Ontario' } },
+          { '@type': 'AdministrativeArea', name: 'Greater Toronto Area (GTA)' },
+          { '@type': 'City', name: 'Innisfil', containedInPlace: { '@type': 'AdministrativeArea', name: 'Ontario' } },
+          { '@type': 'City', name: 'Barrie', containedInPlace: { '@type': 'AdministrativeArea', name: 'Ontario' } },
+          { '@type': 'City', name: 'Bradford', containedInPlace: { '@type': 'AdministrativeArea', name: 'Ontario' } },
+          { '@type': 'AdministrativeArea', name: 'Simcoe County' },
+          { '@type': 'AdministrativeArea', name: 'Southern Ontario' },
+        ],
         priceRange: '$$',
       })}
     />

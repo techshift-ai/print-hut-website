@@ -8,7 +8,7 @@ const differentiators = [
   {
     title: 'Quality you can see.',
     description:
-      'Every print is checked before it leaves the shop. T-shirts, business cards, flyers, table cloths, stickers — Print Hut gets the details right so your brand looks sharp.',
+      'Every print is checked before it ships. T-shirts, business cards, flyers, table cloths, stickers. We get the details right so your stuff looks sharp.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ const differentiators = [
   {
     title: 'Fast turnaround.',
     description:
-      'Standard orders are ready in days, not weeks. Need it sooner? Talk to us — rush jobs are part of the job.',
+      'Standard orders are ready in days, not weeks. Need it sooner? Talk to us. Rush jobs are part of the job.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -50,9 +50,9 @@ const differentiators = [
     ),
   },
   {
-    title: 'A shop you can walk into.',
+    title: 'Real people, not a portal.',
     description:
-      'Come see samples, drop off files, or pick up your order. Print Hut is a real shop with real people — not a portal and a ticket number.',
+      'You talk to the person printing your order. Questions, changes, last-minute tweaks. We pick up the phone and sort it out.',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -66,8 +66,7 @@ const differentiators = [
         strokeLinejoin="round"
         className="text-yellow-500"
       >
-        <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
-        <circle cx="12" cy="10" r="3" />
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
       </svg>
     ),
   },
@@ -94,8 +93,8 @@ export default function WhyPrintHut() {
             Why people choose Print Hut.
           </h2>
           <p className="text-body-lg text-neutral-300">
-            A print shop that does the work right, does it fast, and treats
-            every order like it matters.
+            We do the work right, do it fast, and treat every order like it
+            matters.
           </p>
         </AnimatedSection>
 

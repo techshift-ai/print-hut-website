@@ -13,32 +13,32 @@ const faqs = [
   {
     question: 'How long does printing take?',
     answer:
-      'Standard orders are ready in a few business days. Rush jobs are available — call Print Hut at 647.780.3103 or visit the shop to discuss your timeline.',
+      'Standard orders are ready in a few business days. Rush jobs are available. Call 647.780.3103 or email sales@printhut.ca to discuss your timeline.',
   },
   {
     question: 'Can I bring my own design?',
     answer:
-      'Yes. Print Hut accepts design files for all products — t-shirts, business cards, flyers, table cloths, stickers, and decals. If you do not have a design ready, we can help set one up.',
+      'Yes. Print Hut accepts design files for all products: t-shirts, business cards, flyers, table cloths, stickers, and decals. If you do not have a design ready, we can help set one up.',
   },
   {
     question: 'How do I place an order?',
     answer:
-      'You can fill out the quote form on this page, call us at 647.780.3103, email sales@printhut.ca, or walk into our shop. We will get back to you with details and turnaround.',
+      'Fill out the quote form on this page, call us at 647.780.3103, or email sales@printhut.ca. We will get back to you with details and turnaround.',
   },
   {
     question: 'Where is Print Hut located?',
     answer:
-      'Print Hut is at 260 Regina Road, Unit 16B, Woodbridge, Ontario, L4L 8P8. You can walk in to see samples, drop off files, or pick up your order.',
+      'Print Hut is at 260 Regina Road, Unit 16B, Woodbridge, Ontario, L4L 8P8.',
   },
   {
     question: 'Do you handle bulk or large orders?',
     answer:
-      'Yes. Print Hut handles orders of all sizes — from a single custom table cloth to thousands of flyers or hundreds of t-shirts. Contact us with your quantity and we will provide a quote.',
+      'Yes. Print Hut handles orders of all sizes, from a single custom table cloth to thousands of flyers or hundreds of t-shirts. Contact us with your quantity and we will provide a quote.',
   },
   {
     question: 'What file formats do you accept?',
     answer:
-      'We accept most common design formats including PDF, AI, PSD, PNG, and JPG. If you are not sure about your file, bring it in or send it over — we will let you know if anything needs adjusting.',
+      'We accept most common design formats including PDF, AI, PSD, PNG, and JPG. If you are not sure about your file, send it over and we will let you know if anything needs adjusting.',
   },
 ];
 

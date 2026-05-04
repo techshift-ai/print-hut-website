@@ -21,7 +21,7 @@ function ProductCard({
       <div className="aspect-[4/3] overflow-hidden bg-neutral-100">
         <img
           src={product.image}
-          alt={`${product.name} — custom printing by Print Hut`}
+          alt={`${product.name}, custom printing by Print Hut`}
           className="w-full h-full object-cover"
           loading={index < 2 ? 'eager' : 'lazy'}
           width="600"
@@ -109,8 +109,7 @@ export default function Products() {
           </h2>
           <p className="text-body-lg text-neutral-600">
             From custom apparel to business cards, flyers to branded table
-            cloths — Print Hut handles it all. Tell us what you need and we
-            will make it happen.
+            cloths. Tell us what you need and we will make it happen.
           </p>
         </AnimatedSection>
 

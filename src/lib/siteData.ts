@@ -5,7 +5,7 @@ export const siteData = {
   url: 'https://print-hut-website.pages.dev',
   tagline: 'Custom printing. Quality prints, fast turnaround.',
   description:
-    'Print Hut is a custom printing shop serving the GTA, Simcoe County, and Southern Ontario. T-shirts, business cards, flyers, table cloths, stickers, and decals — quality prints, fast turnaround, and personal service.',
+    'Print Hut does custom printing for the GTA, Simcoe County, and Southern Ontario. T-shirts, business cards, flyers, table cloths, stickers, and decals. Quality prints, fast turnaround, and personal service.',
   phone: '647.780.3103',
   phoneTel: '+16477803103',
   email: 'sales@printhut.ca',

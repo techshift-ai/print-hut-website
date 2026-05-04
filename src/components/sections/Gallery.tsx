@@ -6,7 +6,7 @@ import AnimatedSection from '../ui/AnimatedSection';
 
 const galleryImages = [
   { src: '/images/gallery-1.jpg', alt: 'Custom printed t-shirt by Print Hut' },
-  { src: '/images/gallery-2.jpg', alt: 'Print Hut custom apparel showcase' },
+  { src: '/images/gallery-2.jpg', alt: 'Custom apparel printed by Print Hut' },
   { src: '/images/gallery-3.jpg', alt: 'Branded hoodie printed at Print Hut' },
   { src: '/images/gallery-4.jpg', alt: 'Custom event merchandise by Print Hut' },
   { src: '/images/gallery-5.jpg', alt: 'Print Hut custom printed clothing' },

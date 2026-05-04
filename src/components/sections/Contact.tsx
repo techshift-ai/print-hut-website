@@ -30,7 +30,7 @@ export default function Contact() {
                 Tell us what you need.
               </h2>
               <p className="text-body-lg text-neutral-300 mb-8" style={{ lineHeight: 1.6 }}>
-                Fill out the form, give us a call, or walk into the shop. We
+                Fill out the form, give us a call, or send an email. We
                 usually respond within a few hours during business days.
               </p>
 
@@ -180,19 +180,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Map embed */}
-              <div className="mt-8 rounded-lg overflow-hidden border border-neutral-800 aspect-[16/9]">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.0!2d-79.5541!3d43.7866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2f!2s260+Regina+Road+Woodbridge!5e0!3m2!1sen!2sca!4v1"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Print Hut location on Google Maps — 260 Regina Road, Unit 16B, Woodbridge, ON"
-                />
-              </div>
             </div>
           </AnimatedSection>
 
@@ -328,7 +315,7 @@ export default function Contact() {
                       transitionDuration: 'var(--duration-fast)',
                       minHeight: '120px',
                     }}
-                    placeholder="Tell us about your project — quantity, sizes, design details, timeline, etc."
+                    placeholder="Tell us about your project: quantity, sizes, design details, timeline, etc."
                   />
                 </div>
 

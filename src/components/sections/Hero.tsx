@@ -63,8 +63,8 @@ export default function Hero() {
               style={{ lineHeight: 1.6 }}
             >
               Custom t-shirts, business cards, flyers, table cloths, stickers,
-              and decals — quality prints, fast turnaround, and personal
-              service. Walk in or send us your files.
+              and decals. Quality prints, fast turnaround, and personal
+              service. Send us your files and we will get it done.
             </p>
           </Wrapper>
 
@@ -101,24 +101,6 @@ export default function Hero() {
           {/* Trust badges */}
           <Wrapper {...(prefersReduced ? {} : { variants: heroCta, initial: 'hidden', animate: 'visible' })}>
             <div className="mt-12 flex flex-wrap items-center gap-8 text-neutral-400 text-body-sm">
-              <div className="flex items-center gap-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="text-yellow-500"
-                >
-                  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
-                  <circle cx="12" cy="10" r="3" />
-                </svg>
-                <span>Walk-In Shop Open</span>
-              </div>
               <div className="flex items-center gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
